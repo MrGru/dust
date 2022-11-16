@@ -37,3 +37,4 @@ bytes = "1.2.1"
 [dev-dependencies]
 assert-json-diff = "2.0.2"
 reqwest = { version = "0.11.12", features = ["json"] }
+rusty-hook = "^0.11.2"

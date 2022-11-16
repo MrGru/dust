@@ -53,7 +53,7 @@ impl Error {
                 (StatusCode::UNAUTHORIZED, 40003)
             }
             Error::Authenticate(AuthenticateError::Locked) => (StatusCode::LOCKED, 40003),
-            
+
             // 5xx Errors
             Error::Authenticate(AuthenticateError::TokenCreation) => {
                 (StatusCode::INTERNAL_SERVER_ERROR, 5001)

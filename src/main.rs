@@ -4,9 +4,9 @@ use tracing::info;
 
 mod app;
 mod errors;
+mod logger;
 mod routes;
 mod settings;
-mod logger;
 
 use settings::get_settings;
 
